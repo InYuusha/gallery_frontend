@@ -49,7 +49,10 @@ computed:{
 },
 methods:{
      getPostWithTag(tag){
+       
       this.$router.push(`/tags/${tag}`)
+      window.location.reload()
+      
       
       
 
