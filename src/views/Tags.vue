@@ -1,6 +1,6 @@
 <template>
 <v-container>
-    <h2><v-icon dark  class="mr-7" @click="$router.go(-1)">mdi-arrow-left</v-icon>{{getTagPosts.length}} Posts Tagged with {{$route.params.tag}} <v-icon dark large>mdi-arrow-down</v-icon></h2>
+    <h2 class="mt-14" ><v-icon dark  class="mr-7" @click="$router.go(-1)">mdi-arrow-left</v-icon>{{getTagPosts.length}} Posts Tagged with {{$route.params.tag}} <v-icon dark large>mdi-arrow-down</v-icon></h2>
 
   <v-row justify="start" class="d-flex flex-wrap mt-7 mb-7"> 
       
