@@ -1,7 +1,7 @@
 <template>
   <div class="all posts" >
     
-    <h2 class="my-7" id="blog">Blog posts <v-icon dark medium>mdi-arrow-down</v-icon></h2>
+    <h2 class="my-7" id="blog"><v-icon @click="$router.go(-1)" class="mr-7" dark>mdi-arrow-left</v-icon>Blog posts <v-icon dark medium>mdi-arrow-down</v-icon></h2>
   
  
       <v-row justify="start" class="d-flex flex-wrap">
