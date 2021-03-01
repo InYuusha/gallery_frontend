@@ -5,7 +5,7 @@
   <v-row justify="start" class="d-flex flex-wrap mt-7 mb-7"> 
       
       <v-col cols="md-4 sm-12"  v-for="(event, key) in getTagPosts" :key="key"  >
-            <v-card class="ml-1" >
+            <v-card dark class="ml-1" >
                 
           <v-img :src="event.imageUrl" width="350" :aspect-ratio="10/10"></v-img>
           <v-card-title class="title">{{event.name}}</v-card-title>

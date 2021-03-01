@@ -30,7 +30,7 @@
 
     <v-row justify="start" class="d-flex flex-wrap">
       <v-col cols="md-4 sm-12"  v-for="(event, key) in getLatestEvents" :key="key"  >
-            <v-card  class="ml-1" style="border-radius:15px;padding:10px;" >
+            <v-card dark class="ml-1" style="border-radius:15px;padding:10px;" >
                 
           <v-img :src="event.imageUrl" width="350" :aspect-ratio="10/10"></v-img>
           <v-card-title class="title">{{event.name}}</v-card-title>

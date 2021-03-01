@@ -6,7 +6,7 @@
  
       <v-row justify="start" class="d-flex flex-wrap">
       <v-col cols="md-4 sm-6"  v-for="(event, key) in events" :key="key"  >
-            <v-card class="ml-1 elevation-24" >
+            <v-card dark class="ml-1 elevation-24" >
           <v-img :src="event.imageUrl" :aspect-ratio="10/10" width="360"></v-img>
           <v-card-title class="title">{{event.name}}</v-card-title>
           <v-card-subtitle style="color:grey">{{event.timestamp}}</v-card-subtitle>
