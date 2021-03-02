@@ -17,8 +17,6 @@
   </v-row>
 
 
-
-
   <v-row align="center" >
     <h4 class="my-7">Latest Posts <v-icon medium dark >mdi-arrow-down</v-icon></h4> 
  
@@ -42,8 +40,7 @@
             </v-row>
             
           </v-card-actions>
-          
-          
+           
         </v-card>
       </v-col>
     </v-row>
